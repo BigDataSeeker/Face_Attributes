@@ -11,7 +11,7 @@
 + Age - folder containing training experiments, hypothesis validation, approaches approbation conserning human age
 + Expressions - folder containing approaches comporison, training experiments, hypothesis validation  conserning human facial expressions
 + Gender - folder containing mofdel training for human gender
-+ Datasets - folder containing various dataset dataloaders for training supply 
++ Datasets - folder containing various dataset links and dataloaders for training supply 
 + utils - folder containing tools such as model modifying classes for target attribute heads 
 
 ### You also can find 2 .py scripts running webcam inference
