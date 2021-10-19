@@ -1,0 +1,206 @@
+Training: 2021-09-24 09:28:55,658-rank_id: 0
+Training: 2021-09-24 09:29:02,621-softmax weight init successfully!
+Training: 2021-09-24 09:29:02,621-softmax weight mom init successfully!
+Training: 2021-09-24 09:29:02,623-: loss                     cosface
+Training: 2021-09-24 09:29:02,623-: network                  r18
+Training: 2021-09-24 09:29:02,623-: resume                   False
+Training: 2021-09-24 09:29:02,623-: output                   work_dirs/AffectnetOzon_r18
+Training: 2021-09-24 09:29:02,623-: dataset                  ms1m-retinaface-t1
+Training: 2021-09-24 09:29:02,623-: embedding_size           512
+Training: 2021-09-24 09:29:02,623-: sample_rate              1.0
+Training: 2021-09-24 09:29:02,623-: fp16                     True
+Training: 2021-09-24 09:29:02,623-: momentum                 0.9
+Training: 2021-09-24 09:29:02,623-: weight_decay             0.0005
+Training: 2021-09-24 09:29:02,623-: batch_size               512
+Training: 2021-09-24 09:29:02,624-: lr                       0.1
+Training: 2021-09-24 09:29:02,624-: rec                      /storage_labs/3030/BelyakovM/Face_attributes/ds/db_BuevichP/emochon/AffectPartly_OZON_rec/train
+Training: 2021-09-24 09:29:02,624-: num_classes              7
+Training: 2021-09-24 09:29:02,624-: num_image                74837
+Training: 2021-09-24 09:29:02,624-: num_epoch                40
+Training: 2021-09-24 09:29:02,624-: warmup_epoch             -1
+Training: 2021-09-24 09:29:02,624-: decay_epoch              [16, 24, 30, 36]
+Training: 2021-09-24 09:29:02,624-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2021-09-24 09:29:02,624-: warmup_step              -73
+Training: 2021-09-24 09:29:02,624-: total_step               2920
+Training: 2021-09-24 09:29:02,624-: decay_step               [1169, 1753, 2192, 2630]
+Training: 2021-09-24 09:29:54,943-rank_id: 0
+Training: 2021-09-24 09:30:01,497-softmax weight init successfully!
+Training: 2021-09-24 09:30:01,497-softmax weight mom init successfully!
+Training: 2021-09-24 09:30:01,498-: loss                     cosface
+Training: 2021-09-24 09:30:01,499-: network                  r18
+Training: 2021-09-24 09:30:01,499-: resume                   False
+Training: 2021-09-24 09:30:01,499-: output                   work_dirs/AffectnetOzon_r18
+Training: 2021-09-24 09:30:01,499-: dataset                  ms1m-retinaface-t1
+Training: 2021-09-24 09:30:01,499-: embedding_size           512
+Training: 2021-09-24 09:30:01,499-: sample_rate              1.0
+Training: 2021-09-24 09:30:01,499-: fp16                     True
+Training: 2021-09-24 09:30:01,499-: momentum                 0.9
+Training: 2021-09-24 09:30:01,499-: weight_decay             0.0005
+Training: 2021-09-24 09:30:01,499-: batch_size               256
+Training: 2021-09-24 09:30:01,499-: lr                       0.1
+Training: 2021-09-24 09:30:01,500-: rec                      /storage_labs/3030/BelyakovM/Face_attributes/ds/db_BuevichP/emochon/AffectPartly_OZON_rec/train
+Training: 2021-09-24 09:30:01,500-: num_classes              7
+Training: 2021-09-24 09:30:01,500-: num_image                74837
+Training: 2021-09-24 09:30:01,500-: num_epoch                40
+Training: 2021-09-24 09:30:01,500-: warmup_epoch             -1
+Training: 2021-09-24 09:30:01,500-: decay_epoch              [16, 24, 30, 36]
+Training: 2021-09-24 09:30:01,500-: val_targets              ['lfw', 'cfp_fp', 'agedb_30']
+Training: 2021-09-24 09:30:01,500-: warmup_step              -146
+Training: 2021-09-24 09:30:01,500-: total_step               5840
+Training: 2021-09-24 09:30:01,500-: decay_step               [2338, 3507, 4384, 5261]
+Training: 2021-09-24 09:30:11,807-Reducer buckets have been rebuilt in this iteration.
+Training: 2021-09-24 09:33:45,759-Speed 234.32 samples/sec   Loss 27.5036   LearningRate 0.1000   Epoch: 0   Global Step: 100   Fp16 Grad Scale: 512   Required: 4 hours
+Training: 2021-09-24 09:35:26,789-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_0.pth'
+Training: 2021-09-24 09:35:42,056-Speed 220.13 samples/sec   Loss 25.8255   LearningRate 0.1000   Epoch: 1   Global Step: 150   Fp16 Grad Scale: 512   Required: 4 hours
+Training: 2021-09-24 09:37:33,219-Speed 230.30 samples/sec   Loss 25.3225   LearningRate 0.1000   Epoch: 1   Global Step: 200   Fp16 Grad Scale: 1024   Required: 4 hours
+Training: 2021-09-24 09:39:28,852-Speed 221.39 samples/sec   Loss 25.0235   LearningRate 0.1000   Epoch: 1   Global Step: 250   Fp16 Grad Scale: 1024   Required: 4 hours
+Training: 2021-09-24 09:41:02,840-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_1.pth'
+Training: 2021-09-24 09:41:25,845-Speed 218.82 samples/sec   Loss 24.7121   LearningRate 0.1000   Epoch: 2   Global Step: 300   Fp16 Grad Scale: 2048   Required: 3 hours
+Training: 2021-09-24 09:43:21,647-Speed 221.07 samples/sec   Loss 24.2979   LearningRate 0.1000   Epoch: 2   Global Step: 350   Fp16 Grad Scale: 2048   Required: 3 hours
+Training: 2021-09-24 09:45:11,458-Speed 233.13 samples/sec   Loss 23.9333   LearningRate 0.1000   Epoch: 2   Global Step: 400   Fp16 Grad Scale: 4096   Required: 3 hours
+Training: 2021-09-24 09:46:36,280-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_2.pth'
+Training: 2021-09-24 09:47:09,729-Speed 216.45 samples/sec   Loss 23.5120   LearningRate 0.1000   Epoch: 3   Global Step: 450   Fp16 Grad Scale: 4096   Required: 3 hours
+Training: 2021-09-24 09:48:57,972-Speed 236.51 samples/sec   Loss 23.1453   LearningRate 0.1000   Epoch: 3   Global Step: 500   Fp16 Grad Scale: 8192   Required: 3 hours
+Training: 2021-09-24 09:50:47,492-Speed 233.75 samples/sec   Loss 22.6906   LearningRate 0.1000   Epoch: 3   Global Step: 550   Fp16 Grad Scale: 8192   Required: 3 hours
+Training: 2021-09-24 09:51:59,697-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_3.pth'
+Training: 2021-09-24 09:52:40,279-Speed 226.98 samples/sec   Loss 22.2891   LearningRate 0.1000   Epoch: 4   Global Step: 600   Fp16 Grad Scale: 16384   Required: 3 hours
+Training: 2021-09-24 09:54:32,188-Speed 228.76 samples/sec   Loss 21.6343   LearningRate 0.1000   Epoch: 4   Global Step: 650   Fp16 Grad Scale: 16384   Required: 3 hours
+Training: 2021-09-24 09:56:24,420-Speed 228.10 samples/sec   Loss 21.5187   LearningRate 0.1000   Epoch: 4   Global Step: 700   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 09:57:31,820-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_4.pth'
+Training: 2021-09-24 09:58:26,035-Speed 210.50 samples/sec   Loss 20.7889   LearningRate 0.1000   Epoch: 5   Global Step: 750   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:00:13,337-Speed 238.58 samples/sec   Loss 20.0874   LearningRate 0.1000   Epoch: 5   Global Step: 800   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:02:01,757-Speed 236.12 samples/sec   Loss 19.9885   LearningRate 0.1000   Epoch: 5   Global Step: 850   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:02:57,650-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_5.pth'
+Training: 2021-09-24 10:03:58,072-Speed 220.09 samples/sec   Loss 18.9837   LearningRate 0.1000   Epoch: 6   Global Step: 900   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:05:49,992-Speed 228.74 samples/sec   Loss 17.9064   LearningRate 0.1000   Epoch: 6   Global Step: 950   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:07:39,708-Speed 233.33 samples/sec   Loss 18.3336   LearningRate 0.1000   Epoch: 6   Global Step: 1000   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:08:22,422-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_6.pth'
+Training: 2021-09-24 10:09:29,661-Speed 232.83 samples/sec   Loss 16.5999   LearningRate 0.1000   Epoch: 7   Global Step: 1050   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:11:18,216-Speed 235.83 samples/sec   Loss 16.0709   LearningRate 0.1000   Epoch: 7   Global Step: 1100   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:13:07,374-Speed 234.52 samples/sec   Loss 16.5362   LearningRate 0.1000   Epoch: 7   Global Step: 1150   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:13:43,575-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_7.pth'
+Training: 2021-09-24 10:14:57,526-Speed 232.41 samples/sec   Loss 14.8650   LearningRate 0.1000   Epoch: 8   Global Step: 1200   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:16:50,406-Speed 226.79 samples/sec   Loss 14.1982   LearningRate 0.1000   Epoch: 8   Global Step: 1250   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:18:39,038-Speed 235.66 samples/sec   Loss 14.8142   LearningRate 0.1000   Epoch: 8   Global Step: 1300   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:19:06,509-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_8.pth'
+Training: 2021-09-24 10:20:32,540-Speed 225.55 samples/sec   Loss 12.9691   LearningRate 0.1000   Epoch: 9   Global Step: 1350   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:22:20,003-Speed 238.22 samples/sec   Loss 13.0170   LearningRate 0.1000   Epoch: 9   Global Step: 1400   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:24:09,582-Speed 233.62 samples/sec   Loss 13.6208   LearningRate 0.1000   Epoch: 9   Global Step: 1450   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:24:27,180-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_9.pth'
+Training: 2021-09-24 10:26:02,017-Speed 227.69 samples/sec   Loss 11.4627   LearningRate 0.1000   Epoch: 10   Global Step: 1500   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:27:54,445-Speed 227.70 samples/sec   Loss 12.0563   LearningRate 0.1000   Epoch: 10   Global Step: 1550   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:29:45,964-Speed 229.56 samples/sec   Loss 12.6697   LearningRate 0.1000   Epoch: 10   Global Step: 1600   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:29:56,533-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_10.pth'
+Training: 2021-09-24 10:31:41,819-Speed 220.97 samples/sec   Loss 10.3840   LearningRate 0.1000   Epoch: 11   Global Step: 1650   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:33:31,233-Speed 233.98 samples/sec   Loss 11.3198   LearningRate 0.1000   Epoch: 11   Global Step: 1700   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:35:20,293-Speed 234.74 samples/sec   Loss 12.1826   LearningRate 0.1000   Epoch: 11   Global Step: 1750   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:35:21,224-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_11.pth'
+Training: 2021-09-24 10:37:10,959-Speed 231.33 samples/sec   Loss 9.7870   LearningRate 0.1000   Epoch: 12   Global Step: 1800   Fp16 Grad Scale: 32768   Required: 3 hours
+Training: 2021-09-24 10:39:00,113-Speed 234.53 samples/sec   Loss 10.6993   LearningRate 0.1000   Epoch: 12   Global Step: 1850   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:40:44,019-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_12.pth'
+Training: 2021-09-24 10:40:53,560-Speed 225.66 samples/sec   Loss 11.6456   LearningRate 0.1000   Epoch: 13   Global Step: 1900   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:42:41,899-Speed 236.30 samples/sec   Loss 9.0631   LearningRate 0.1000   Epoch: 13   Global Step: 1950   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:44:31,544-Speed 233.48 samples/sec   Loss 10.3693   LearningRate 0.1000   Epoch: 13   Global Step: 2000   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:46:07,303-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_13.pth'
+Training: 2021-09-24 10:46:25,490-Speed 224.67 samples/sec   Loss 10.7497   LearningRate 0.1000   Epoch: 14   Global Step: 2050   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:48:16,274-Speed 231.08 samples/sec   Loss 8.8094   LearningRate 0.1000   Epoch: 14   Global Step: 2100   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:50:05,898-Speed 233.53 samples/sec   Loss 10.0655   LearningRate 0.1000   Epoch: 14   Global Step: 2150   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:51:29,782-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_14.pth'
+Training: 2021-09-24 10:51:56,372-Speed 231.73 samples/sec   Loss 10.9080   LearningRate 0.1000   Epoch: 15   Global Step: 2200   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:53:45,439-Speed 234.72 samples/sec   Loss 8.8450   LearningRate 0.1000   Epoch: 15   Global Step: 2250   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:55:32,576-Speed 238.95 samples/sec   Loss 9.8203   LearningRate 0.1000   Epoch: 15   Global Step: 2300   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:56:50,883-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_15.pth'
+Training: 2021-09-24 10:57:27,791-Speed 222.20 samples/sec   Loss 9.9292   LearningRate 0.0100   Epoch: 16   Global Step: 2350   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 10:59:17,185-Speed 234.02 samples/sec   Loss 6.3806   LearningRate 0.0100   Epoch: 16   Global Step: 2400   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:01:06,593-Speed 233.99 samples/sec   Loss 5.6167   LearningRate 0.0100   Epoch: 16   Global Step: 2450   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:02:09,989-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_16.pth'
+Training: 2021-09-24 11:02:54,228-Speed 237.84 samples/sec   Loss 4.4623   LearningRate 0.0100   Epoch: 17   Global Step: 2500   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:04:45,449-Speed 230.17 samples/sec   Loss 3.5678   LearningRate 0.0100   Epoch: 17   Global Step: 2550   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:06:32,843-Speed 238.38 samples/sec   Loss 3.5946   LearningRate 0.0100   Epoch: 17   Global Step: 2600   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:07:31,104-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_17.pth'
+Training: 2021-09-24 11:08:25,601-Speed 227.04 samples/sec   Loss 3.0040   LearningRate 0.0100   Epoch: 18   Global Step: 2650   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:10:13,226-Speed 237.87 samples/sec   Loss 2.4082   LearningRate 0.0100   Epoch: 18   Global Step: 2700   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:12:00,995-Speed 237.55 samples/sec   Loss 2.5392   LearningRate 0.0100   Epoch: 18   Global Step: 2750   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:12:52,124-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_18.pth'
+Training: 2021-09-24 11:13:54,980-Speed 224.59 samples/sec   Loss 2.1109   LearningRate 0.0100   Epoch: 19   Global Step: 2800   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:15:42,275-Speed 238.60 samples/sec   Loss 1.7501   LearningRate 0.0100   Epoch: 19   Global Step: 2850   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:17:32,002-Speed 233.31 samples/sec   Loss 1.8240   LearningRate 0.0100   Epoch: 19   Global Step: 2900   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:18:14,434-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_19.pth'
+Training: 2021-09-24 11:19:26,091-Speed 224.39 samples/sec   Loss 1.4204   LearningRate 0.0100   Epoch: 20   Global Step: 2950   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:21:15,110-Speed 234.82 samples/sec   Loss 1.3200   LearningRate 0.0100   Epoch: 20   Global Step: 3000   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:23:07,229-Speed 228.33 samples/sec   Loss 1.3641   LearningRate 0.0100   Epoch: 20   Global Step: 3050   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:23:39,232-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_20.pth'
+Training: 2021-09-24 11:25:02,329-Speed 222.42 samples/sec   Loss 1.1210   LearningRate 0.0100   Epoch: 21   Global Step: 3100   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:26:52,005-Speed 233.42 samples/sec   Loss 1.0822   LearningRate 0.0100   Epoch: 21   Global Step: 3150   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:28:38,763-Speed 239.80 samples/sec   Loss 1.1113   LearningRate 0.0100   Epoch: 21   Global Step: 3200   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:29:02,482-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_21.pth'
+Training: 2021-09-24 11:30:33,797-Speed 222.55 samples/sec   Loss 0.9122   LearningRate 0.0100   Epoch: 22   Global Step: 3250   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:32:22,904-Speed 234.64 samples/sec   Loss 0.8617   LearningRate 0.0100   Epoch: 22   Global Step: 3300   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:34:14,721-Speed 228.95 samples/sec   Loss 0.8829   LearningRate 0.0100   Epoch: 22   Global Step: 3350   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:34:27,416-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_22.pth'
+Training: 2021-09-24 11:36:07,352-Speed 227.29 samples/sec   Loss 0.7220   LearningRate 0.0100   Epoch: 23   Global Step: 3400   Fp16 Grad Scale: 32768   Required: 2 hours
+Training: 2021-09-24 11:37:55,756-Speed 236.16 samples/sec   Loss 0.8113   LearningRate 0.0100   Epoch: 23   Global Step: 3450   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:39:43,011-Speed 238.69 samples/sec   Loss 0.8448   LearningRate 0.0100   Epoch: 23   Global Step: 3500   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:39:52,487-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_23.pth'
+Training: 2021-09-24 11:41:40,372-Speed 218.13 samples/sec   Loss 0.6001   LearningRate 0.0010   Epoch: 24   Global Step: 3550   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:43:28,975-Speed 235.72 samples/sec   Loss 0.6625   LearningRate 0.0010   Epoch: 24   Global Step: 3600   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:45:13,304-Speed 245.38 samples/sec   Loss 0.5613   LearningRate 0.0010   Epoch: 24   Global Step: 3650   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:45:13,669-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_24.pth'
+Training: 2021-09-24 11:47:07,982-Speed 223.23 samples/sec   Loss 0.5194   LearningRate 0.0010   Epoch: 25   Global Step: 3700   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:48:56,617-Speed 235.65 samples/sec   Loss 0.5392   LearningRate 0.0010   Epoch: 25   Global Step: 3750   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:50:35,942-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_25.pth'
+Training: 2021-09-24 11:50:49,906-Speed 225.97 samples/sec   Loss 0.5110   LearningRate 0.0010   Epoch: 26   Global Step: 3800   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:52:39,881-Speed 232.78 samples/sec   Loss 0.4545   LearningRate 0.0010   Epoch: 26   Global Step: 3850   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:54:32,703-Speed 226.91 samples/sec   Loss 0.4793   LearningRate 0.0010   Epoch: 26   Global Step: 3900   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:56:01,714-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_26.pth'
+Training: 2021-09-24 11:56:23,820-Speed 230.39 samples/sec   Loss 0.4389   LearningRate 0.0010   Epoch: 27   Global Step: 3950   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 11:58:18,007-Speed 224.20 samples/sec   Loss 0.4685   LearningRate 0.0010   Epoch: 27   Global Step: 4000   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:00:05,302-Speed 238.60 samples/sec   Loss 0.4656   LearningRate 0.0010   Epoch: 27   Global Step: 4050   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:01:25,085-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_27.pth'
+Training: 2021-09-24 12:01:57,962-Speed 227.23 samples/sec   Loss 0.3950   LearningRate 0.0010   Epoch: 28   Global Step: 4100   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:03:47,744-Speed 233.19 samples/sec   Loss 0.4051   LearningRate 0.0010   Epoch: 28   Global Step: 4150   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:05:37,221-Speed 233.84 samples/sec   Loss 0.4228   LearningRate 0.0010   Epoch: 28   Global Step: 4200   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:06:50,211-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_28.pth'
+Training: 2021-09-24 12:07:32,876-Speed 221.35 samples/sec   Loss 0.3738   LearningRate 0.0010   Epoch: 29   Global Step: 4250   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:09:22,699-Speed 233.10 samples/sec   Loss 0.3869   LearningRate 0.0010   Epoch: 29   Global Step: 4300   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:11:10,373-Speed 237.76 samples/sec   Loss 0.4038   LearningRate 0.0010   Epoch: 29   Global Step: 4350   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:12:13,233-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_29.pth'
+Training: 2021-09-24 12:13:04,291-Speed 224.72 samples/sec   Loss 0.3924   LearningRate 0.0001   Epoch: 30   Global Step: 4400   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:14:46,975-Speed 249.31 samples/sec   Loss 0.3627   LearningRate 0.0001   Epoch: 30   Global Step: 4450   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:16:31,533-Speed 244.84 samples/sec   Loss 0.3517   LearningRate 0.0001   Epoch: 30   Global Step: 4500   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:17:27,022-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_30.pth'
+Training: 2021-09-24 12:18:22,030-Speed 231.68 samples/sec   Loss 0.3897   LearningRate 0.0001   Epoch: 31   Global Step: 4550   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:20:10,797-Speed 235.37 samples/sec   Loss 0.3500   LearningRate 0.0001   Epoch: 31   Global Step: 4600   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:21:57,894-Speed 239.04 samples/sec   Loss 0.3676   LearningRate 0.0001   Epoch: 31   Global Step: 4650   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:22:40,792-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_31.pth'
+Training: 2021-09-24 12:23:46,783-Speed 235.10 samples/sec   Loss 0.3114   LearningRate 0.0001   Epoch: 32   Global Step: 4700   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:25:35,577-Speed 235.31 samples/sec   Loss 0.3800   LearningRate 0.0001   Epoch: 32   Global Step: 4750   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:27:25,292-Speed 233.33 samples/sec   Loss 0.3773   LearningRate 0.0001   Epoch: 32   Global Step: 4800   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:27:58,811-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_32.pth'
+Training: 2021-09-24 12:29:18,294-Speed 226.55 samples/sec   Loss 0.3474   LearningRate 0.0001   Epoch: 33   Global Step: 4850   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:31:02,533-Speed 245.59 samples/sec   Loss 0.3814   LearningRate 0.0001   Epoch: 33   Global Step: 4900   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:32:50,595-Speed 236.90 samples/sec   Loss 0.3462   LearningRate 0.0001   Epoch: 33   Global Step: 4950   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:33:17,386-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_33.pth'
+Training: 2021-09-24 12:34:40,291-Speed 233.37 samples/sec   Loss 0.3795   LearningRate 0.0001   Epoch: 34   Global Step: 5000   Fp16 Grad Scale: 32768   Required: 1 hours
+Training: 2021-09-24 12:36:27,058-Speed 239.78 samples/sec   Loss 0.3727   LearningRate 0.0001   Epoch: 34   Global Step: 5050   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:38:15,533-Speed 236.00 samples/sec   Loss 0.3364   LearningRate 0.0001   Epoch: 34   Global Step: 5100   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:38:37,408-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_34.pth'
+Training: 2021-09-24 12:40:08,008-Speed 227.61 samples/sec   Loss 0.3350   LearningRate 0.0001   Epoch: 35   Global Step: 5150   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:41:55,262-Speed 238.69 samples/sec   Loss 0.3389   LearningRate 0.0001   Epoch: 35   Global Step: 5200   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:43:40,516-Speed 243.22 samples/sec   Loss 0.4054   LearningRate 0.0001   Epoch: 35   Global Step: 5250   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:43:53,133-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_35.pth'
+Training: 2021-09-24 12:45:34,235-Speed 225.12 samples/sec   Loss 0.3186   LearningRate 0.0000   Epoch: 36   Global Step: 5300   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:47:22,925-Speed 235.53 samples/sec   Loss 0.3474   LearningRate 0.0000   Epoch: 36   Global Step: 5350   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:49:09,296-Speed 240.67 samples/sec   Loss 0.3619   LearningRate 0.0000   Epoch: 36   Global Step: 5400   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:49:10,214-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_36.pth'
+Training: 2021-09-24 12:50:59,282-Speed 232.76 samples/sec   Loss 0.3566   LearningRate 0.0000   Epoch: 37   Global Step: 5450   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:52:47,093-Speed 237.45 samples/sec   Loss 0.3496   LearningRate 0.0000   Epoch: 37   Global Step: 5500   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:54:26,549-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_37.pth'
+Training: 2021-09-24 12:54:36,601-Speed 233.77 samples/sec   Loss 0.3282   LearningRate 0.0000   Epoch: 38   Global Step: 5550   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:56:25,451-Speed 235.19 samples/sec   Loss 0.3348   LearningRate 0.0000   Epoch: 38   Global Step: 5600   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:58:14,561-Speed 234.63 samples/sec   Loss 0.3031   LearningRate 0.0000   Epoch: 38   Global Step: 5650   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 12:59:45,278-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_38.pth'
+Training: 2021-09-24 13:00:04,312-Speed 233.26 samples/sec   Loss 0.3853   LearningRate 0.0000   Epoch: 39   Global Step: 5700   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 13:01:52,787-Speed 236.00 samples/sec   Loss 0.3316   LearningRate 0.0000   Epoch: 39   Global Step: 5750   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 13:03:39,812-Speed 239.20 samples/sec   Loss 0.3476   LearningRate 0.0000   Epoch: 39   Global Step: 5800   Fp16 Grad Scale: 32768   Required: 0 hours
+Training: 2021-09-24 13:05:05,911-Pytorch Model Saved in 'work_dirs/AffectnetOzon_r18/backbone_39.pth'
