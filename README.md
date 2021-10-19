@@ -14,4 +14,4 @@
 + Datasets - folder containing various dataset links and dataloaders for training supply 
 + utils - folder containing tools such as model modifying classes for target attribute heads 
 
-### You also can find 2 .py scripts running webcam inference
+### You also can find 2 .py scripts running webcam inference. The scrips use scrfd face detector of insightface gitrepo
